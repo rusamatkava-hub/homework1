@@ -1,9 +1,5 @@
 package org.example;
 
-import java.util.Scanner;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
@@ -23,7 +19,7 @@ public class Main {
         if (userName.equals("Rusa") && password.equals("Test123")) {
             System.out.println("Login successful");
         } else {
-            System.out.println(" Invalid username or password");
+            System.out.println("Invalid username or password");
         }
 
 
