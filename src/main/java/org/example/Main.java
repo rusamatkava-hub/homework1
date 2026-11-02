@@ -5,7 +5,7 @@ public class Main {
 
 
 //N.1
-        int productPrice = 150;
+        double productPrice = 115;
         if (productPrice >= 100) {
             System.out.println(productPrice - productPrice * 10 / 100);
         } else {
@@ -25,14 +25,22 @@ public class Main {
 
 //N.3
         int[] testResults = {1, 0, 1, 1, 0};
+
+        int passed = 0;
+        int failed = 0;
+
         for (int i = 0; i < testResults.length; i++) {
 
             if (testResults[i] == 1) {
-                System.out.println("Passed");
+                passed++;
             } else {
-                System.out.println("Failed");
+                failed++;
             }
         }
+
+        System.out.println("Passed: " + passed);
+        System.out.println("Failed: " + failed);
+
 
 //N.4
         String orderStatus = "PROCESSING";
